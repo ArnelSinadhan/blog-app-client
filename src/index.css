@@ -1,0 +1,226 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+/* Navbar */
+.navbar-brand {
+  color: #183153 !important;
+  font-weight: 1000 !important;
+}
+.nav-link {
+  color: #183153 !important;
+  font-weight: 800 !important;
+}
+.fa-user {
+  margin-right: 10px;
+  color: #183153;
+}
+.fa-user-tie {
+  margin-right: 10px;
+  color: #183153;
+}
+/* Register */
+.registerTitle {
+  font-weight: 700;
+  font-size: 50px;
+}
+.regForm {
+  color: #183153;
+  font-weight: 600;
+}
+.regBtn {
+  background-color: #183153 !important;
+  width: 100%;
+  height: 50px;
+  border: none !important;
+  border-radius: 0px !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+}
+/* Login */
+.loginContainer {
+  min-height: 95vh;
+  display: flex;
+  min-width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0 !important;
+}
+.loginRow {
+  height: 100% !important;
+  width: 90%;
+}
+.loginRow .col-md-6 {
+  height: 100% !important;
+  justify-content: center;
+  align-items: center;
+}
+.loginTitle {
+  font-weight: 700;
+  font-size: 50px;
+  color: #183153;
+}
+.loginSubtitle {
+  font-size: 26px;
+  color: #183153;
+}
+.createAccountBtn {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: #183153;
+}
+/* Homepage */
+.home {
+  background-color: #f0f2f5;
+}
+/* Get Post */
+.userProfile {
+  width: 100px !important;
+  border-radius: 50%;
+}
+.postImgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 !important;
+}
+.postImg {
+  border-radius: 20px;
+  padding: 15px;
+}
+.userInfo {
+  font-weight: 700;
+}
+.accordion-button::after {
+  display: none;
+}
+
+.accordion-custom-header {
+  width: 100%;
+  text-align: right;
+}
+
+.comment {
+  margin-bottom: 10px;
+}
+.commentsBtn {
+  border: none;
+}
+
+/* Override the active background color of the accordion to be transparent */
+.accordion-button:not(.collapsed) {
+  --bs-accordion-active-bg: transparent;
+  --bs-accordion-border-color: none;
+}
+/* Override the border color of the accordion to be none */
+.accordion-button {
+  --bs-accordion-btn-focus-box-shadow: none;
+  padding: 0 !important;
+}
+.commentUserImg {
+  width: 70px !important;
+}
+.commentsBox {
+  background-color: #f0f2f5;
+  width: max-content !important;
+  margin: 0 !important;
+  padding: 10px 20px !important;
+  border-radius: 20px;
+}
+.fa-heart {
+  font-size: 20px;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.842);
+  border-radius: 50%;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Add Post */
+.addPostWrapper {
+  background-color: #ffffff !important;
+  width: 100%;
+  display: flex;
+  padding: 30px 20px !important;
+  margin-top: 50px;
+  border-radius: 8px;
+}
+.addPostBtn {
+  width: 100%;
+  background-color: #f0f2f5 !important;
+  color: gray !important;
+  border: none !important;
+  border-radius: 99px !important;
+}
+.addPostProfile {
+  width: 100px !important;
+}
+.modalBg {
+  background-color: #f3f3f46b;
+}
+.addPostSubmit {
+  width: 100%;
+}
+.addPostSubmit2 {
+  width: 100%;
+}
+
+/* Profile */
+.profileView {
+  width: 250px !important;
+}
+.profileViewInfo {
+  width: fit-content !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profileViewPost {
+  background-color: #f0f2f5;
+}
+/* Get User Posts */
+.fa-circle-xmark {
+  font-size: 20px;
+  padding: 10px;
+  color: gray;
+  text-align: right;
+}
+.fa-circle-xmark:hover {
+  color: rgba(255, 0, 0, 0.829);
+}
+
+.fa-file-pen {
+  font-size: 20px;
+  padding: 10px;
+  color: gray;
+  text-align: right;
+}
+.fa-file-pen:hover {
+  color: #183153;
+}
+.updateDeleteWrapper {
+  display: flex;
+  justify-content: end;
+}
+
+/* Admin View */
+.AdminDeleteCommentBtn {
+  background-color: transparent !important;
+  color: #183153 !important;
+  border: none !important;
+  font-size: 12px !important;
+  padding: 0 !important;
+  font-weight: 700 !important;
+}
+.AdminDeleteCommentBtn:hover {
+  color: rgb(209, 6, 6) !important;
+}
+.deleteCommentWrapper {
+  display: flex;
+  justify-content: end;
+  padding: 0 !important;
+  margin-top: 10px;
+}
