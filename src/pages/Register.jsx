@@ -53,7 +53,7 @@ export default function Register() {
         Swal.fire({
           title: "Server Error!",
           icon: "error",
-          text: "An error occurred. Please contact administrator!",
+          text: "An error occurred. Please contact admin!",
         });
       });
   };
