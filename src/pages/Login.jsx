@@ -34,7 +34,7 @@ export default function Login() {
             icon: "error",
             text: "No email found",
           });
-        } else if (data.error === "Email and password do not match") {
+        } else if (data.message === "Email and password do not match") {
           Swal.fire({
             title: "Error",
             icon: "error",
