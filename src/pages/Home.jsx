@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <Container fluid className="home">
-      {!isAuthenticated ? <GetPost /> : <Login />}
+      {!isAuthenticated ? <Login /> : <GetPost />}
     </Container>
   );
 }
