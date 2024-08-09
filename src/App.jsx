@@ -10,7 +10,7 @@ import PostDetails from "./pages/PostDetails";
 function App() {
   return (
     <UserProvider>
-      <Router basename="/">
+      <Router basename="/login">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
